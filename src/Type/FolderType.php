@@ -29,4 +29,19 @@ class FolderType extends BaseFolderType
      * @var integer
      */
     public $UnreadCount;
+	
+	public $FolderId;
+	public $ParentFolderId;
+	public $DisplayName;
+	public $TotalCount;
+	public $ChildFolderCount;
+	public $FolderClass;
+	public $SearchParameters;
+	public $ManagedFolderInformation;
+	public $EffectiveRights;
+	public $SharingEffectiveRights;
+	public $DistinguishedFolderId;
+	public $PolicyTag;
+	public $ArchiveTag;
+	public $ReplicaList;
 }

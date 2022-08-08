@@ -306,5 +306,19 @@ class ConversationType extends Type
      *
      * @var integer
      */
-    public $UnreadCount;
+    public $UnreadCount;	
+	
+	public $HasIrm;
+	public $GlobalHasIrm;	
+	public $LastModifiedTime;
+	public $InstanceKey;
+	public $Preview;
+	public $IconIndex;
+	public $GlobalIconIndex;
+	public $DraftItemIds;
+	public $HasClutter;
+	public $MentionedMe;
+	public $GlobalMentionedMe;
+	public $AtAllMention;
+	public $GlobalAtAllMention;
 }

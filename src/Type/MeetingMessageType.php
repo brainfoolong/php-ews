@@ -91,4 +91,7 @@ class MeetingMessageType extends MessageType
      * @var string
      */
     public $UID;
+	
+	public $ProposedStart;
+	public $ProposedEnd;
 }

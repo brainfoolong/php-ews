@@ -444,4 +444,19 @@ class CalendarItemType extends ItemType
      * @var string
      */
     public $When;
+	
+	public $StartWallClock;
+	public $EndWallClock;
+	public $StartTimeZoneId;
+	public $EndTimeZoneId;	
+	public $EnhancedLocation;	
+	public $InboxReminders;
+
+	public $JoinOnlineMeetingUrl;
+	public $OnlineMeetingSettings;
+
+	public $IsOrganizer;
+	public $CalendarActivityData;
+	
+	public $IntendedFreeBusyStatus;
 }

@@ -410,4 +410,50 @@ class ContactItemType extends ItemType
      * @todo Make a DateTime object.
      */
     public $WeddingAnniversary;
+	
+	public $Culture;
+	public $AbchEmailAddresses;	
+	public $AccountName;
+	public $IsAutoUpdateDisabled;
+	public $IsMessengerEnabled;
+	public $Comment;
+	public $ContactShortId;
+	public $ContactType;
+	public $CreatedBy;
+	public $Gender;
+	public $IsHidden;
+	public $ObjectId;
+	public $PassportId;
+	public $IsPrivate;
+	public $SourceId;
+	public $TrustLevel;
+	public $Urls;
+	public $Cid;
+	public $SkypeAuthCertificate;
+	public $SkypeContext;
+	public $SkypeId;
+	public $XboxLiveTag;
+	public $SkypeRelationship;
+	public $YomiNickname;
+	public $InviteFree;
+	public $HidePresenceAndProfile;
+	public $IsPendingOutbound;
+	public $SupportGroupFeeds;
+	public $UserTileHash;
+	public $UnifiedInbox;
+	public $Mris;
+	public $Wlid;
+	public $AbchContactId;
+	public $NotInBirthdayCalendar;
+	public $ShellContactType;
+	public $ImMri;
+	public $PresenceTrustLevel;
+	public $OtherMri;
+	public $ProfileLastChanged;
+	public $MobileIMEnabled;
+	public $Members;
+	public $PartnerNetworkProfilePhotoUrl;
+	public $PartnerNetworkThumbnailPhotoUrl;
+	public $PersonId;
+	public $ConversationGuid;
 }

@@ -440,4 +440,42 @@ class ItemType extends Type
      * @var string
      */
     public $WebClientReadFormQueryString;
+
+	public $ReminderNextTime;
+	public $DisplayBcc;
+	public $Flag;
+	public $InstanceKey;
+	public $NormalizedBody;
+	public $EntityExtractionResult;
+	public $PolicyTag;
+	public $ArchiveTag;
+	public $RetentionDate;
+	public $Preview;
+	public $PredictedActionReasons;
+	public $IsClutter;
+	public $RightsManagementLicenseData;
+	public $BlockStatus;
+	public $HasBlockedImages;
+
+	public $TextBody;
+
+	public $IconIndex;
+
+	public $MimeContentUTF8;
+
+	public $Mentions;
+	public $MentionedMe;
+	public $MentionsPreview;
+	public $MentionsEx;
+	public $Hashtags;
+	public $AppliedHashtags;
+	public $AppliedHashtagsPreview;
+	public $Likes;
+	public $LikesPreview;
+	public $PendingSocialActivityTagIds;
+	public $AtAllMention;
+	public $CanDelete;
+	public $InferenceClassification;
+
+    public $FirstBody;
 }

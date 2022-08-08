@@ -143,4 +143,10 @@ class MessageType extends ItemType
      * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfRecipientsType
      */
     public $ToRecipients;
+	
+	public $ReceivedBy;
+	public $ReceivedRepresenting;
+	public $ApprovalRequestData;
+	public $VotingInformation;
+	public $ReminderMessageData;
 }

@@ -420,4 +420,6 @@ class MeetingRequestMessageType extends MeetingMessageType
      * @type string
      */
     public $When;
+	
+	public $ChangeHighlights;
 }

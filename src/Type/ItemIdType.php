@@ -44,4 +44,6 @@ class ItemIdType extends BaseItemIdType
      * @var string
      */
     public $Id;
+	
+	public $ItemId;
 }

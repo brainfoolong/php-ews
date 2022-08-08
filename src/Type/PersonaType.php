@@ -969,4 +969,95 @@ class PersonaType extends Type
      * @var \jamesiarmes\PhpEws\ArrayType\ArrayOfStringAttributedValuesType
      */
     public $YomiLastNames;
+	
+	public $FullName;
+	public $SMSNumber;
+	public $Alias;
+	public $LinkedInProfileLink;
+	public $Skills;
+	public $ProfessionalBiography;
+	public $ManagementChain;
+	public $DirectReports;
+	public $Peers;
+	public $TeamSize;
+	public $CurrentJob;
+	public $Birthday;
+	public $Hometown;
+	public $CurrentLocation;
+	public $CompanyProfile;
+	public $Office;
+	public $Headline;
+	public $MutualConnections;
+	public $MutualManager;
+	public $Insights;
+	public $UserProfilePicture;
+	
+	public $RankingWeight;
+	
+	public $IsFavorite;
+	public $InlineLinks;
+	public $ItemLinkIds;
+	public $HasActiveDeals;
+	public $IsBusinessContact;
+	public $AttributedHasActiveDeals;
+	public $AttributedIsBusinessContact;
+	public $SourceMailboxGuids;
+	public $LastContactedDate;
+	public $ExternalDirectoryObjectId;
+	public $MapiEntryId;
+	public $MapiEmailAddress;
+	public $MapiAddressType;
+	public $MapiSearchKey;
+	public $MapiTransmittableDisplayName;
+	public $MapiSendRichInfo;
+
+	public $MemberType;
+	public $MemberId;
+
+	public $TokenRefreshLastCompleted;
+	public $TokenRefreshLastAttempted;
+	public $SyncEnabled;
+	public $RejectedOffers;
+	public $SessionHandle;
+	public $RefreshTokenExpiry2;
+	public $RefreshToken2;
+	public $PsaLastChanged;
+	public $Offers;
+	public $LastWelcomeContact;
+	public $LastVersionSaved;
+	public $DomainTag;
+	public $FirstAuthErrorDates;
+	public $ErrorOffers;
+	public $ContactSyncSuccess;
+	public $ContactSyncError;
+	public $ClientToken2;
+	public $ClientToken;
+	public $ClientPublishSecret;
+	public $UserEmail;
+	public $AutoLinkSuccess;
+	public $AutoLinkError;
+	public $IsDefault;
+	public $Settings;
+	public $ProfileUrl;
+	public $UserTileUrl;
+	public $DomainId;
+	public $AccountName;
+	public $SourceEntryID;
+
+	public $FavoriteOrder;
+	public $PersonId;
+	public $ExchangePersonIdGuid;
+	public $AntiLinkInfo;
+	public $RelevanceOrder1;
+	public $RelevanceOrder2;
+	public $ContactHandles;
+	public $Categories;
+
+	public $ServiceIds;
+	public $StaffIds;
+	public $StaffInitials;
+	public $CustomerName;
+	public $CustomerEmail;
+	public $CustomerPhone;
+	public $CustomerId;
 }
