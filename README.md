@@ -6,8 +6,11 @@ easier. It handles the NTLM authentication required to use the SOAP
 services and provides an object-oriented interface to the complex types
 required to form a request.
 
-[![Scrutinizer](https://img.shields.io/scrutinizer/g/jamesiarmes/php-ews.svg?style=flat-square)][1]
-[![Total Downloads](https://img.shields.io/packagist/dt/php-ews/php-ews.svg?style=flat-square)][2]
+Original by: https://github.com/jamesiarmes/php-ews
+
+Changes to original
+------------
+PHP 8.2+ support
 
 ## Dependencies
 
@@ -21,16 +24,8 @@ Exchange.**
 
 ## Installation
 
-The prefered installation method is via Composer, which will automatically
-handle autoloading of classes.
-
-```json
-{
-    "require": {
-        "php-ews/php-ews": "~1.0"
-    }
-}
-```
+Download source code and install. Code is PSR-4 compliant, so autoload will work flawlessly. No composer installation
+available
 
 ## Usage
 
@@ -87,10 +82,17 @@ contribute to and benefit from questions or issues you may have. Any support
 requests received via email will be directed here.
 
 [1]: https://scrutinizer-ci.com/g/jamesiarmes/php-ews
+
 [2]: https://packagist.org/packages/php-ews/php-ews
+
 [3]: https://github.com/jamesiarmes/php-ews/tree/master/examples/autodiscover
+
 [4]: http://www.jamesarmes.com/php-ews/
+
 [5]: http://msdn.microsoft.com/library/bb204119\(v=EXCHG.80\).aspx
+
 [6]: http://msdn.microsoft.com/library/bb204119\(v=exchg.140\).aspx
+
 [7]: http://msdn.microsoft.com/library/bb204119\(v=exchg.150\).aspx
+
 [8]: https://github.com/jamesiarmes/php-ews/issues
