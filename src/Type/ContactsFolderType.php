@@ -12,12 +12,14 @@ namespace jamesiarmes\PhpEws\Type;
  */
 class ContactsFolderType extends BaseFolderType
 {
+    public mixed $SourceId;
+
     /**
      * Contains all the configured permissions for a folder.
      *
      * @since Exchange 2007 SP1
      *
-     * @var \jamesiarmes\PhpEws\Type\PermissionSetType
+     * @var PermissionSetType
      */
     public $PermissionSet;
 
